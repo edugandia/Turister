@@ -4,18 +4,16 @@ body {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 nav {
-  margin: 0;
-   }
+  margin: 0; }
 
-#nav-bar{
+#nav-bar {
   width: 100vw;
   height: 65px;
   display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1e4363;
-}
+  background-color: #1e4363; }
 
 h1 {
   margin: 0;
@@ -40,3 +38,5 @@ nav img {
 #map {
   width: 100vw;
   height: 587px; }
+
+/*# sourceMappingURL=style.css.map */
