@@ -8,6 +8,7 @@
   <title>{{title}}</title>
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel="stylesheet" href="/stylesheets/style.css" />
+  <script src="/javascripts/geolocalize.js"></script>
 </head>
 
 <body>
@@ -20,16 +21,18 @@
 
     <div id="menu-container">
       <div class="menu-box"><a href="/">Home</a></div>
-      <div class="menu-box"><a href="">Añadir Ruta</a></div>
+      <div class="menu-box"><a href="/addplace">Añadir Lugar de Interés</a></div>
       <div class="menu-box"><a href="/auth/login">Log in</a></div>
       <div class="menu-box"><a href="/auth/signup">Sign up</a></div>
     </div>
   </nav>
 
   {{{body}}}
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpK3H8uHIj99teUQ5u0J6z7uDH9_DgEko"></script>
   <script src="/javascripts/events.js"></script>
-  <script src="/javascripts/script.js"></script>
+  <script src="/javascripts/addPlaces.js"></script>
+  <script src="/javascripts/navMap.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpK3H8uHIj99teUQ5u0J6z7uDH9_DgEko"></script>
+
 
 
 </body>
