@@ -1,24 +1,19 @@
-<h2>Signup</h2>
+<div class="full-container">
 
-<form action="/auth/signup" method="POST" id="form-container">
-  <label for="username">Username</label>
-  <input id="username" type="text" name="username" placeholder="JonSnow">
+  <h2>Sign up</h2>
 
-  <br><br>
-
-  <label for="password">Password</label>
-  <input id="password" type="password" name="password" placeholder="Your password">
-  <br>
-  {{#if message }}
+  <form action="/auth/signup" method="POST" id="form-container">
+    <input id="username" type="text" name="username" placeholder="Introduce un nombre">
+    <input id="password" type="password" name="password" placeholder="Introduce una contraseña">
+  
+    {{#if message }}
     <div class="error-message">{{ message }}</div>
-  {{/if}}
+    {{/if}}
 
-  <br><br>
-
-  <button>Create account</button>
-
-  <p class="account-message">
-    Do you already have an account?
-    <a href="/auth/login">Login</a>
-  </p>
-</form>
+    <button>Crea tu cuenta</button>
+    <p class="account-message">
+      Si ya tienes cuenta 
+      <a href="/auth/login">Login</a>
+    </p>
+  </form>
+</div>
