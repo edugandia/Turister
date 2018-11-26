@@ -15,7 +15,6 @@ nav {
   height: 10vh;
   padding: 0 25px;
   display: flex;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(to bottom, #505050, #0c0c0c); }
@@ -37,12 +36,12 @@ nav img {
 .menu-box {
   display: flex;
   position: relative;
-  justify-content: flex-end;
+  float: right;
+  justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 63vw;
   height: 10vh;
-  padding-right: 25px;
-  background: linear-gradient(to bottom, rgba(80, 80, 80, 0.9), rgba(40, 40, 40, 0.9)); }
+  background: linear-gradient(to bottom, rgba(80, 80, 80, 0.95), rgba(40, 40, 40, 0.95)); }
 
 a {
   text-decoration: none;
@@ -87,7 +86,7 @@ a {
   height: 8vh;
   border-radius: 8px;
   margin: 5px 0;
-  color: white;
+  color: #e6e6e6;
   background-color: black; }
 
 .full-container h2 {
@@ -98,7 +97,7 @@ a {
   height: 50vh; }
 
 #add-places-form {
-  color: white;
+  color: #e6e6e6;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -116,7 +115,7 @@ a {
   height: 8vh;
   border-radius: 8px;
   margin: 5px 0;
-  color: white;
+  color: #e6e6e6;
   background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
